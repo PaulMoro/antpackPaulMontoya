@@ -1,1 +1,103 @@
- 
+.antpack__container{
+  padding: 0 4.35rem;
+}
+
+.antpack__space{
+  padding: 8.5rem 0 9rem;
+}
+
+.antpack__input{
+  border: 1px solid var(--border-input);
+  border-radius: 5px;
+  padding: 1.1rem 0 0 2.1rem;
+  background-color: var(--background-input);
+  font-size: 1.4rem;
+}
+
+.antpack__btn{
+  border-radius: 5px;
+  padding: 1.5rem 5.5rem;
+  font-size: 1.4rem;
+  color: var(--text-color-white);
+}
+
+.antpack__btn-link{
+  padding: 1.5rem 3.6rem;
+  border-radius: 37px;
+}
+
+.antpack__btn-link--transparent{
+  background-color: transparent;
+  border: 1px solid var(--second-color);
+}
+
+.antpack__title{
+  padding: 0 0 1rem;
+  font-weight: 800;
+  font-size: 5.8rem;
+  line-height: 138%;
+  text-align: center;
+  letter-spacing: 0.2px;
+}
+
+.antpack__subtitle{
+  padding: 0 0 1rem;
+  font-weight: 700;
+  font-size: 4rem;
+  line-height: 142%;
+  text-align: center;
+  letter-spacing: 0.2px;
+}
+
+.antpack__text{
+  font-weight: 500;
+  font-size: var(--size-paragraph);
+  line-height: 143%;
+  color: var(--text-color-ligt);
+}
+
+.antpack__text--big{
+  font-weight: 700;
+  font-size: var(--size-paragraph);
+  line-height: 143%;
+  color: var(--text-color-ligt);
+}
+
+.antpack__text--blue{
+  color: var(--primary-color);
+}
+
+.antpack__text--blue-light{
+ color: var(--third-color);
+}
+
+.antpack__text--gray{
+
+}
+
+.antpack__text--white{
+  color: var(--second-color);
+}
+
+.antpack__reset--link{
+  text-decoration: none;
+  color: var(--primary-color);
+}
+.antpack__reset--link:hover{
+  color: var(--hover-color);
+}
+
+.antpack__reset--list{
+  list-style: none;
+}
+
+.antpack__reset--btn{
+  border: none;
+  appearance: none;
+  -webkit-appearance: none;
+}
+
+.antpack__reset--input{
+  appearance: none;
+  -webkit-appearance: none;
+}

@@ -1,0 +1,36 @@
+:root{
+  /* Color */
+  --primary-color: #23A6F0;
+  --second-color:  #FFF;
+  --tridth-color: #8EC2F2;
+  --hover-color:#2A7CC7;
+  --background-color: #FAFAFA;
+  --background-color-dark: #252B42;
+  --text-color: #252B42;
+  --text-color-ligth: #737373;
+  --text-color-white: #FFFFFF;
+  --background-input: #F9F9F9;
+  --border-input: #BDBDBD;
+
+  /* Font Style */
+  --famili-font: 'Montserrat';
+  --size-paragraph: 1.4rem;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html{
+  font-size: 62.5%;
+  line-height: 22px;
+  font-family: var(--font-body);
+  -webkit-font-smoothing: antialiased;
+}
+
+body{
+  font-size: 1.6rem;
+  letter-spacing: 0.2px;
+}
