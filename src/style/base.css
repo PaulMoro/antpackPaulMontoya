@@ -6,8 +6,8 @@
   --hover-color:#2A7CC7;
   --background-color: #FAFAFA;
   --background-color-dark: #252B42;
-  --text-color: #252B42;
-  --text-color-ligth: #737373;
+  --text-color: #737373;
+  --text-color-dark: #252B42;
   --text-color-white: #FFFFFF;
   --background-input: #F9F9F9;
   --border-input: #BDBDBD;
@@ -33,4 +33,5 @@ html{
 body{
   font-size: 1.6rem;
   letter-spacing: 0.2px;
+  color: var(--text-color);
 }
