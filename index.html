@@ -5,6 +5,10 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Document</title>
+  <!-- Links Google fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;800&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="style.css">
 </head>
 <body>
@@ -13,36 +17,62 @@
   </header>
 
   <main class="main">
-    <div class="antpack__space">
+    <div class="antpack__container">
       <div class="main__body">
 
 
         <div class="main__text">
-          <h1 class="main__title">
+          <h1 class="main__title antpack__title antpack__text--white">
             Meet the Best Hospital
           </h1>
-          <p class="main__text">
+          <p class="main__paragraph antpack__text--white">
             We know how large objects will act, but things on a small scale.
           </p>
           <div class="main__links">
-            <div class="antipack__btn antipack__btn-link">
-              <a href="#">Get Quote Now</a>
+            <div class="main__btn main__btn--blue antpack__btn antpack__btn-link">
+              <a href="#" class="antpack__text--white antpack__reset--link">Get Quote Now</a>
             </div>
-            <div class="antipack__btn antipack__btn-link--transparent">
-              <a href="#">Learn More</a>
+            <div class="main__btn main__btn--transparent antpack__btn antpack__btn-link antpack__btn-link--transparent">
+              <a href="#" class="antpack__text--white antpack__reset--link">Learn More</a>
             </div>
           </div>
         </div>
 
 
         <div class="main__form">
-          <span>Book Appointment</span>
-          <form>
-            <label for="name">Name *</label>
-            <input type="text" name="name" id="name">
+          <span class="main__form-title antpack__text--big">Book Appointment</span>
+          <form class="main__form-body">
+            <div class="main__form-item">
+              <label class="antpack__text" for="name">Name *</label>
+              <input type="text" name="name" id="" class="antpack__input">
+            </div>
 
-            <label for="email">Email <span>address</span>*</label>
-            <input type="email" name="email" id="">
+            <div class="main__form-item">
+              <label class="antpack__text" for="email">Email <span>address</span>*</label>
+              <input type="email" name="email" id="" class="antpack__input">
+            </div>
+
+            <div class="main__form-item main__form-item--select">
+              <label class="antpack__text" for="department">Department *</label>
+              <select name="department" id="" class="antpack__input">
+                <option value="neurology">Neurology</option>
+                <option value="oncology">Oncology</option>
+                <option value="odontology">Odontology</option>
+              </select>
+            </div>
+
+            <div class="main__form-item main__form-item--select">
+              <label class="antpack__text" for="time">Time *</label>
+              <select name="time" id="" class="antpack__input">
+                <option value="14:00-available">2:00 Available</option>
+                <option value="14:30-available">2:30 Available</option>
+                <option value="16:00-available">4:00 Available</option>
+                <option value="17:00">5:00</option>
+                <option value="18:00-available">6:00 Available</option>
+              </select>
+            </div>
+
+            <button type="reset" class="antpack__btn antpack__btn--blue antpack__reset--btn">Book Appointment</button>
           </form>
         </div>
       </div>

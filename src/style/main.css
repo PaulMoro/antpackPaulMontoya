@@ -1,0 +1,195 @@
+.main{
+  background-image: url(../image/background-mobile.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover; 
+}
+
+.main__body{
+  padding: 8.4rem 0 11.4rem;
+  display: flex;
+  flex-direction: column;
+}
+
+.main__text{
+  text-align: center;
+  font-size: 2rem;
+}
+
+.main__title{
+  padding: 0 0 3.5rem;
+}
+
+.main__text{
+
+}
+
+.main__links{
+  padding: 3.5rem 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.main__btn{
+  white-space: nowrap;
+}
+
+.main__btn--blue{
+  margin: 0 0 2rem;
+}
+
+.main__btn--transparent{
+
+}
+
+.main__form{
+  border-radius: 1rem;
+  padding: 4rem 4.7rem;
+  background-color: var(--second-color);
+}
+
+.main__form-title{
+  padding: 0 0 4rem;
+  display: block;
+  text-align: center;
+  color: var(--color-dark);
+}
+
+.main__form-body{
+  display: flex;
+  flex-direction: column;
+}
+
+.main__form-item{
+  padding: 0 0 1.2rem;
+  display: flex;
+  flex-direction: column;
+  position: relative;
+}
+
+.main__form-item label{
+  padding: 0 0 1rem;
+  font-weight: 800;
+  color: var(--color-dark);
+}
+
+.main__form-item select{
+  color: var(--text-color);
+  appearance: none;
+}
+
+.main__form-item--select::after{
+  content: '';
+  width: 14px;
+  height: 8px;
+  position: absolute;
+  bottom: 2.1rem;
+  right: 2rem;
+  background-image: url(../image/arrow-selec.svg);
+  transform: translateY(-50%);
+}
+
+.main__form button{
+  margin: 2.8rem 0 0;
+}
+
+@media (min-width: 768px) {
+  .main{
+    background-image: url(../image/background-desktop.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover; 
+  }
+  
+  .main__body{
+    padding: 15.4rem 0 5.3rem;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+  }
+  
+  .main__text{
+    width: 50%;
+    max-width: 59.9rem;
+    text-align: left;
+  }
+  
+  .main__title{
+
+  }
+  
+  .main__paragraph{
+  
+  }
+  
+  .main__links{
+    padding: 3.5rem 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .main__btn{
+    white-space: nowrap;
+  }
+  
+  .main__btn--blue{
+    margin: 0 0 2rem;
+  }
+  
+  .main__btn--transparent{
+  
+  }
+  
+  .main__form{
+    border-radius: 1rem;
+    padding: 4rem 4.7rem;
+    background-color: var(--second-color);
+  }
+  
+  .main__form-title{
+    padding: 0 0 4rem;
+    display: block;
+    text-align: center;
+    color: var(--color-dark);
+  }
+  
+  .main__form-body{
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .main__form-item{
+    padding: 0 0 1.2rem;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+  }
+  
+  .main__form-item label{
+    padding: 0 0 1rem;
+    font-weight: 800;
+    color: var(--color-dark);
+  }
+  
+  .main__form-item select{
+    color: var(--text-color);
+    appearance: none;
+  }
+  
+  .main__form-item--select::after{
+    content: '';
+    width: 14px;
+    height: 8px;
+    position: absolute;
+    bottom: 2.1rem;
+    right: 2rem;
+    background-image: url(../image/arrow-selec.svg);
+    transform: translateY(-50%);
+  }
+  
+  .main__form button{
+    margin: 2.8rem 0 0;
+  }  
+}

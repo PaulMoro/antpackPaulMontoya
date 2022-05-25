@@ -5,16 +5,12 @@
   --tridth-color: #8EC2F2;
   --hover-color:#2A7CC7;
   --background-color: #FAFAFA;
-  --background-color-dark: #252B42;
+  --color-dark: #252B42;
   --text-color: #737373;
-  --text-color-dark: #252B42;
   --text-color-white: #FFFFFF;
   --background-input: #F9F9F9;
   --border-input: #BDBDBD;
 
-  /* Font Style */
-  --famili-font: 'Montserrat';
-  --size-paragraph: 1.4rem;
 }
 
 * {
@@ -23,15 +19,19 @@
   box-sizing: border-box;
 }
 
+*:focus {
+  outline: none;
+}
+
 html{
   font-size: 62.5%;
   line-height: 22px;
-  font-family: var(--font-body);
   -webkit-font-smoothing: antialiased;
 }
 
 body{
   font-size: 1.6rem;
   letter-spacing: 0.2px;
+  font-family: 'Montserrat', sans-serif;
   color: var(--text-color);
 }

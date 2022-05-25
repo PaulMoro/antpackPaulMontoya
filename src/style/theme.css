@@ -9,33 +9,46 @@
 .antpack__input{
   border: 1px solid var(--border-input);
   border-radius: 5px;
-  padding: 1.1rem 0 0 2.1rem;
+  padding: 1.1rem 0 1.1rem 2.1rem;
   background-color: var(--background-input);
   font-size: 1.4rem;
+  color: var(--text-color);
 }
 
 .antpack__btn{
   border-radius: 5px;
   padding: 1.5rem 5.5rem;
   font-size: 1.4rem;
+  font-weight: 700;
   color: var(--text-color-white);
+  transition: 6s, cubic-bezier(0.165, 0.84, 0.44, 1);
+}
+
+.antpack__btn--blue{
+  background-color: var(--primary-color);
+}
+
+.antpack__btn--blue:hover{
+  background-color: var(--hover-color);
 }
 
 .antpack__btn-link{
-  padding: 1.5rem 3.6rem;
   border-radius: 37px;
+  padding: 1.5rem 3.6rem;
+  width: fit-content;
+  background-color: var(--primary-color);
 }
 
 .antpack__btn-link--transparent{
   border: 1px solid var(--second-color);
+  border-radius: 37px;
   background-color: transparent;
 }
 
 .antpack__title{
-  padding: 0 0 1rem;
   font-weight: 800;
-  font-size: 5.8rem;
-  line-height: 138%;
+  font-size: 4rem;
+  line-height: 142%;
   text-align: center;
   letter-spacing: 0.2px;
 }
@@ -51,16 +64,15 @@
 
 .antpack__text{
   font-weight: 500;
-  font-size: var(--size-paragraph);
+  font-size: 1.4rem;
   line-height: 143%;
   color: var(--text-color);
 }
 
 .antpack__text--big{
+  font-size: 2.4rem;
   font-weight: 700;
-  font-size: var(--size-paragraph);
-  line-height: 143%;
-  color: var(--text-color);
+  line-height: 133%;
 }
 
 .antpack__text--blue{
@@ -80,15 +92,11 @@
 }
 
 .antpack__remove-desktop{
-  
+
 }
 
 .antpack__reset--link{
   text-decoration: none;
-  color: var(--primary-color);
-}
-.antpack__reset--link:hover{
-  color: var(--hover-color);
 }
 
 .antpack__reset--list{
@@ -104,4 +112,31 @@
 .antpack__reset--input{
   appearance: none;
   -webkit-appearance: none;
+}
+
+@media (min-width: 768px) {
+  .antpack__container{
+    margin:  0 auto;
+    max-width: calc(fit-content - 2rem);
+  }
+  
+  .antpack__space{
+    padding: 11.2rem 0;
+  }
+
+  .antpack__title{
+    font-size: 5.8rem;
+    line-height: 138%;
+    text-align: left;
+  }
+}
+
+@media (min-width: 1024px) {
+  .antpack__container{
+    max-width: 1040px;
+  }
+  
+  .antpack__space{
+    padding: 11.2rem 0;
+  }
 }
