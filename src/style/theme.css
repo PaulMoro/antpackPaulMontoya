@@ -75,6 +75,10 @@
   line-height: 133%;
 }
 
+.antpack__text--black{
+  color: var(--color-dark);
+}
+
 .antpack__text--blue{
   color: var(--primary-color);
 }
@@ -88,11 +92,7 @@
 }
 
 .antpack__text--white{
-  color: var(--second-color);
-}
-
-.antpack__remove-desktop{
-
+  color: var(--text-color-white);
 }
 
 .antpack__reset--link{

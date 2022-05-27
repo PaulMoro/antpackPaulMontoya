@@ -1,0 +1,137 @@
+.leading{
+}
+
+.leading__title{
+  padding: 0 0 7.5rem;
+}
+
+  .leading__text{
+    margin: 0 auto;
+    text-align: center;
+  }
+
+  
+  .leading__text--desktop{
+    display: none;
+  }
+
+.leading__body{
+  display: flex;
+  flex-direction: column;
+  gap: 3rem;
+}
+
+  .card{
+    border-radius: 10px;
+    background-color: var(--tridth-color--ligth);
+  }
+
+  .card__header{
+    padding: 3rem 0.2rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+    .card__logo{
+      display: block;
+      border-radius: 50%;
+      padding: 2.3rem 2rem;
+      background-color: var(--text-color-white);
+      min-width: 72px;
+      min-height: 72px;
+    }
+
+      .img{
+
+      }
+
+      .img--desktop{
+        display: none;
+      }
+
+
+    .card__title{
+      padding: 0 0 0 1.5rem;
+      color: var(--color-dark)
+    }
+
+  .card__body{
+    border: 1px solid var(--tridth-color);
+    border-radius: 11px;
+    padding: 3rem  4.4rem 3rem 5rem;
+    background-color: var(--second-color);
+  }
+
+    .card__text{
+      list-style: none;
+      list-style-position: inside;
+    }
+
+    .card__text > li{
+      font-weight: 600;
+      padding: 0 0 0.5rem;
+    }
+
+    .card__link{
+      font-weight: 600;
+    }
+
+@media (min-width: 768px) {
+  .leading{
+  }
+  
+  .leading__title{
+    padding: 0 0 11.2rem;
+  }
+  
+    .leading__text{
+      display: none;
+    }
+    
+    .leading__text--desktop{
+      display: block;
+    }
+  
+  .leading__body{
+    flex-direction: row;
+  }
+  
+    .card{
+      border-radius: 10px;
+      background-color: var(--tridth-color--ligth);
+    }
+  
+    .card__header{
+      background-color: var(--tridth-color);
+      border-top-left-radius: 10px;
+      border-top-right-radius: 10px;
+    }
+  
+      .card__logo{
+        width: 72px;
+        height: 72px;
+      }
+
+        .img{
+          display: none;
+        }
+
+        .img--desktop{
+          display: block;
+        }
+  
+      .card__title{
+        padding: 0 0 0 1.5rem;
+        color: var(--text-color-white)
+      }
+  
+    .card__body{
+    }
+  
+      .card__text{
+      }
+  
+      .card__link{
+      }
+}
