@@ -13,15 +13,14 @@
 
 .main__text{
   text-align: center;
-  font-size: 2rem;
 }
 
 .main__title{
   padding: 0 0 3.5rem;
 }
 
-.main__text{
-
+.main__paragraph{
+  font-size: 2rem;
 }
 
 .main__links{
@@ -74,6 +73,10 @@
   color: var(--color-dark);
 }
 
+.main__form-item label .main__form-item--responsive{
+  display: none;
+}
+
 .main__form-item select{
   color: var(--text-color);
   appearance: none;
@@ -116,18 +119,16 @@
   }
   
   .main__title{
-
   }
   
   .main__paragraph{
-  
   }
   
   .main__links{
-    padding: 3.5rem 0;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
+    padding: 3.5rem 0 0;
+    flex-direction: row;
+    gap: 1rem;
+    flex-wrap: wrap;
   }
   
   .main__btn{
@@ -135,11 +136,10 @@
   }
   
   .main__btn--blue{
-    margin: 0 0 2rem;
+    margin: 0;
   }
   
   .main__btn--transparent{
-  
   }
   
   .main__form{
@@ -172,24 +172,17 @@
     font-weight: 800;
     color: var(--color-dark);
   }
+
+  .main__form-item label .main__form-item--responsive{
+    display: inline;
+  }
   
   .main__form-item select{
-    color: var(--text-color);
-    appearance: none;
   }
   
   .main__form-item--select::after{
-    content: '';
-    width: 14px;
-    height: 8px;
-    position: absolute;
-    bottom: 2.1rem;
-    right: 2rem;
-    background-image: url(../image/arrow-selec.svg);
-    transform: translateY(-50%);
   }
   
   .main__form button{
-    margin: 2.8rem 0 0;
   }  
 }
