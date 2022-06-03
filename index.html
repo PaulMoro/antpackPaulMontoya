@@ -12,8 +12,54 @@
   <link rel="stylesheet" href="style.css">
 </head>
 <body>
-  <header>
-
+  <header class="header antpack__transition" id="header">
+    <div class="antpack__container">
+      <figure class="header__logo">
+        <img 
+          class="antpack__transition"
+          src="./src/image/Physionic.svg" 
+          alt="Logo start Up" 
+          height="100%" 
+          width="100%">
+      </figure>
+      <nav class="header__nav">
+        <ul class="header__list antpack__reset--list">
+          <li class="header__item-nav">
+            <a href="#" class="antpack__reset--link antpack__transition">
+              Home
+            </a>
+          </li>
+          <li class="header__item-nav">
+            <a href="#" class="antpack__reset--link antpack__transition">
+              Product
+            </a>
+          </li>
+          <li class="header__item-nav">
+            <a href="#" class="antpack__reset--link antpack__transition">
+              Pricing
+            </a>
+          </li>
+          <li class="header__item-nav">
+            <a href="#" class="antpack__reset--link antpack__transition">
+              Contact
+            </a>
+          </li>
+        </ul>
+      </nav>
+      <div class="header__btn antpack__transition">
+        <figure class="header__btn-logo" id="open-nav">
+          <img 
+            class="antpack__transition"
+            src="./src/image/icon-menu.svg" 
+            alt="Icon menu" 
+            height="100%" 
+            width="100%">
+        </figure>
+        <button class="antpack__btn antpack__btn--blue">
+          <span>Get Quote Now</span>
+        </button>
+      </div>
+    </div>
   </header>
 
   <main class="main">
@@ -200,8 +246,8 @@
     </div>
   </section>
 
-  <section class="clients antpack__container">
-    <div class="antpack__space">
+  <section class="clients antpack__space">
+    <div class="antpack__container">
 
       <div class="clients__title">
         <h2 class="antpack__subtitle antpack__text--black">What Clients Say</h2>
@@ -282,16 +328,9 @@
     </div>
   </section>
 
-  <section class="">
+  <footer class="faq antpack__container">
+  </footer>
 
-  </section>
-
-  <section class="">
-
-  </section>
-
-  <section class="">
-
-  </section>
+  <script src="./index.js"></script>
 </body>
 </html>
