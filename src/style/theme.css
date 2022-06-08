@@ -77,6 +77,10 @@
   line-height: 133%;
 }
 
+.antpack__text--bold{
+  font-weight: 700;
+}
+
 .antpack__text--black{
   color: var(--color-dark);
 }
@@ -86,7 +90,7 @@
 }
 
 .antpack__text--blue-light{
- color: var(--third-color);
+ color: var(--tridth-color);
 }
 
 .antpack__text--gray{
