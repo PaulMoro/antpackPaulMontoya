@@ -1,6 +1,6 @@
 .main{
   position: relative;
-  top: 10.3rem;
+  margin-top: 10.3rem;
   background-image: url(../image/background-mobile.png);
   background-repeat: no-repeat;
   background-position: center;
@@ -101,7 +101,7 @@
 
 @media (min-width: 768px) {
   .main{
-    top: 0;
+    margin-top: 0;
     background-image: url(../image/background-desktop.png);
     background-repeat: no-repeat;
     background-position: center;
