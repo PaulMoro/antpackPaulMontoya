@@ -561,29 +561,31 @@
 
   <section class="subscribe antpack__space">
     <div class="antpack__container">
-
-      <div class="subscripbe__text">
-        <h3>
-          <span>Subscribe For Latest Newsletter</span>
-          <span>Get In Touch</span>
-        </h3>
-        <p>The gradual accumulation of information about atomic and small-scale behaviour during the first quarter of the 20th </p>
+      <div class="subscribe__body">
+        <div class="subscribe__text">
+          <h3 class="subscribe__title">
+            <span class="subscribe__title--mobile antpack__text--big">Subscribe For Latest Newsletter</span>
+            <span class="subscribe__title--responsive antpack__subtitle">Get In Touch</span>
+          </h3>
+          <p class="subscribe__paragraph">The gradual accumulation of information about atomic and small-scale behaviour during the first quarter of the 20th </p>
+        </div>
+      
+        <form 
+          class="subscribe__form"
+          action=""
+          method="post">
+          <label for="subscription" hidden>Email</label>
+          <input 
+            class="subscribe__input antpack__input"  
+            type="email" 
+            name="subscription" 
+            id="subscription"
+            placeholder="Your Email">
+          <button 
+            class="subscribe__btn antpack__btn antpack__btn--blue" 
+            type="submit">Subscribe</button>
+        </form>
       </div>
-    
-      <form 
-        class="subscripbe__form"
-        action=""
-        method="post">
-        <label for="subscription"></label>
-        <input 
-          class=""  
-          type="email" 
-          name="subscription" 
-          id="subscription">
-        <button 
-          classs="" 
-          type="submit">Subscribe</button>
-      </form>
     </div>
   </section>
 
