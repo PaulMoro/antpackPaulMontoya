@@ -27,7 +27,6 @@ if(headerNode) {
 const btnForOpenNav = document.getElementById('open-nav')
 if(btnForOpenNav) {
   btnForOpenNav.addEventListener('click', () => {
-    console.log('aa')
     toggleClassName(headerNode, 'active-responsive')
   })
 }

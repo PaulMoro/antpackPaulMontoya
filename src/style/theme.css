@@ -21,7 +21,8 @@
   font-size: 1.4rem;
   font-weight: 700;
   color: var(--text-color-white);
-  transition: 6s, cubic-bezier(0.165, 0.84, 0.44, 1);
+  -webkit-transition: .7s cubic-bezier(.165, .84, .44, 1);
+  transition: .7s cubic-bezier(.165, .84, .44, 1);
   cursor: pointer;
 }
 

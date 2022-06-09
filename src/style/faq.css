@@ -1,5 +1,6 @@
 .faq{
   background-color: var(--background-color);
+  padding-top: 0;
 }
 
 .faq__title{
@@ -80,7 +81,7 @@
   
   .faq__body{
     display: grid;
-    grid-template-columns: auto auto auto;
+    grid-template-columns: 1fr 1fr 1fr;
     gap: 3rem;
   }
   
